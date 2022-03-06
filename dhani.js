@@ -74,8 +74,8 @@ botname = setting.BotName
 ownername = setting.OwnerName
 gaya1 = setting.gaya1
 gaya2 = setting.gaya2
-const fakeimage = fs.readFileSync ('./media/dhani.jpg')
-const thumb = fs.readFileSync ('./media/thumb.jpg')
+const fakeimage = fs.readFileSync ('./media/TextPro.me_16224657a4dd51.jpg')
+const thumb = fs.readFileSync ('./media/TextPro.me_16224657a4dd51.jpg')
 
 //══════════[ Data Base ]══════════//
 
