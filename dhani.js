@@ -1108,7 +1108,7 @@ break
 case 'bayar':
 case 'payment':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
-gambar = fs.readFileSync('./media/sewa.jpg')
+gambar = fs.readFileSync('./media/IMG-20220306-WA0035.jpg')
 menunya = `*「 PAYMENT 」*
 
 • Gopay : _Tidak tersedia_
