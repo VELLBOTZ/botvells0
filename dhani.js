@@ -1087,22 +1087,21 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN SEWABOT :\`\`\`
-➪ *1 Minggu :* _5.000_
-➪ *1 Bulan :* _10.000_
-➪ *Permanen :* _15.000_
+➪ *1 Minggu :* _2.000_
+➪ *1 Bulan :* _5.000_
+➪ *Permanen :* _10.000_
 
 ───────────────
-*_By DhaniGansOfficial_* :
+*_By Vells_* :
 ───────────────
 \`\`\`OPEN MURIDBOT :\`\`\`
-➪ *Murid biasa :* _20.000_
-➪ *Murid premium :* _50.000_
+➪ *Tidak Tersedia*
 
 \`\`\`OPEN BUAT SC :\`\`\`
-➪ *Script Store :* _Hubungi owner_
-➪ *Script Biasa :* _Hubungi owner_
+➪ *Script Store :* _Tidak Tersedia_
+➪ *Script Biasa :* _Tidak Tersedia_
 Untuk yang mau beli script / sc
-Bisa request jika minat silakan hubungi DhaniGansOfficial
+Bisa request jika minat silakan hubungi nomor dibawah
 Nomor : https://wa.me/message/IMGMIAUAWC54J1`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
@@ -1112,9 +1111,9 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _Silakan scan qr di atas_
-• Dana : _Tidak tersedia_
-• Ovo : _Tidak tesedia_
+• Gopay : _Tidak tersedia_
+• Dana : _Silahkan scan qr di atas_
+• Ovo : _Tidak tersedia_
 • Pulsa : _Tidak tersedia_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
