@@ -509,77 +509,77 @@ sections: [
 "title": `${tanggal} - ${time} WIB`,
 rows: [
 {
-"title": "GROUP MENU",
+"title": "GROUP MENU[🐣]",
 "description": `Menampilkan List Fitur Khusus Group`,
 "rowId": `${prefix}grupmenu`
 },
 {
-"title": "DOWNLOAD MENU",
+"title": "DOWNLOAD MENU[📥]",
 "description": `Menampilkan List Fitur Untuk Download`,
 "rowId": `${prefix}downloadmenu`
 },
 {
-"title": "MAKER MENU",
+"title": "MAKER MENU[📝]",
 "description": `Menampilkan List Fitur Untuk Membuatkan Logo`,
 "rowId": `${prefix}makermenu`
 },
 {
-"title": "RANDOM TEXT",
+"title": "RANDOM TEXT[📝]",
 "description": `Menampilkan List Fitur Random Teks`,
 "rowId": `${prefix}randomtext`
 },
 {
-"title": "RANDOM IMAGE",
+"title": "RANDOM IMAGE[🖼️]",
 "description": `Menampilkan List Fitur Random Foto`,
 "rowId": `${prefix}randomimage`
 },
 {
-"title": "RANDOM VIDEO",
+"title": "RANDOM VIDEO[🎥]",
 "description": `Menampilkan List Fitur Random Video`,
 "rowId": `${prefix}randomvideo`
 },
 {
-"title": "ASUPAN MENU",
+"title": "ASUPAN MENU[❤️]",
 "description": `Menampilkan List Fitur Asupan 18+`,
 "rowId": `${prefix}asupanmenu`
 },
 {
-"title": "CECAN MENU",
+"title": "CECAN MENU[🈵]",
 "description": `Menampilkan List Fitur Cecan Dan Cogan`,
 "rowId": `${prefix}cecanmenu`
 },
 {
-"title": "ANIME MENU",
+"title": "ANIME MENU[🉐]",
 "description": `Menampilkan List Fitur Anime`,
 "rowId": `${prefix}animemenu`
 },
 {
-"title": "NSFW MENU",
+"title": "NSFW MENU[🔞]",
 "description": `Menampilkan List Fitur Nsfw 18+`,
 "rowId": `${prefix}nsfwmenu`
 },
 {
-"title": "KERANG MENU",
+"title": "KERANG MENU[🐚]",
 "description": `Menampilkan List Spongebob`,
 "rowId": `${prefix}kerangmenu`
 },
 {
-"title": "FUN MENU",
+"title": "FUN MENU[🎇]",
 "description": `Menampilkan List Game/Bermain`,
 "rowId": `${prefix}funmenu`
 },
 {
-"title": "STICKER MENU",
+"title": "STICKER MENU[🗿]",
 "description": `Menampilkan List Fitur Sticker`,
 "rowId": `${prefix}stickermenu`
 },
 {
-"title": "OTHER MENU",
+"title": "OTHER MENU[📖]",
 "description": `Menampilkan List Fitur Lainnya`,
 "rowId": `${prefix}othermenu`
 },
 {
-"title": "OWNER MENU",
+"title": "OWNER MENU[👩‍💻]",
 "description": `Menampilkan List Fitur Khusus Owner`,
 "rowId": `${prefix}ownermenu`
 }
