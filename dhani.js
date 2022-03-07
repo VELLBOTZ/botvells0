@@ -2425,7 +2425,7 @@ buff = await Dhani.downloadMediaMessage(encmedia)
 for (let _ of anu) {
 Dhani.sendMessage(_.jid, buff, image, { caption: `${body.slice(7)}` })
 }
-reply('Sukses Broadcast Image')
+reply('Sukses Broadcast')
 } else {
 for (let _ of anu) {
 sendMess(_.jid, `${body.slice(7)}`)
