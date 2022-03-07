@@ -469,32 +469,25 @@ ${gaya1} *Wita* : ${timeMak}
 ${gaya1} *Wit* : ${timeJay}
 
 
-\`\`\`❏「 INFO BOT 」\`\`\`
-${gaya1} *Speed* : ${latensie.toFixed(4)} Detik
-${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Nama Bot* : ${botname}
-${gaya1} *Nama Owner* : ${ownername}
-${gaya1} *Nomor Owner* : @${pemilik.split('@')[0]}
-${gaya1} *Hostname :* ${os.hostname()}
-${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${Dhani.user.phone.wa_version}
-${gaya1} *Total Pengguna :* ${_registered.length}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} *Autoread* : ${autoread ? "Aktif" : "Off"}
-${gaya1} *Autoketik* : ${autoketik ? "Aktif" : "Off"}
-${gaya1} *Autovn* : ${autovn ? "Aktif" : "Off"}
+\`\`\`❏「 INFO BOT🤖 」\`\`\`
+${gaya1} 💻*Speed* : ${latensie.toFixed(4)} Detik
+${gaya1} 📱*Runtime* : ${runtime(process.uptime())}
+${gaya1} 🤖*Nama Bot* : ${botname}
+${gaya1} 👩‍💻*Nama Owner* : ${ownername}
+${gaya1} 🐣*Nomor Owner* : @${pemilik.split('@')[0]}
+${gaya1} 🗃️*Mode :* ${self ? "Self" : "Public"}
 
 
-\`\`\`❏「 INFO USER 」\`\`\`
-${gaya1} *Nama* : ${pushname}
-${gaya1} *Bio* : ${bio_user}
-${gaya1} *Nomor* : @${senderr.split('@')[0]}
-${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
+\`\`\`❏「 INFO USER👤 」\`\`\`
+${gaya1} 👤*Nama* : ${pushname}
+${gaya1} 🏷️*Bio* : ${bio_user}
+${gaya1} 📱*Nomor* : @${senderr.split('@')[0]}
+${gaya1} 💌*Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `_Silakan Pilih Tombol Di Bawah_
 _Pilih Salah Satu Jika WhatsApp Gb_
 _Silakan Ketik ${prefix}command_`
-Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '📑ᴍᴇɴᴜ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '👩‍💻ᴏᴡɴᴇʀ' }, type: 1 },{ buttonId: `${prefix}sewabot`, buttonText: { displayText: '🤖sᴇᴡᴀ ʙᴏᴛ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
+Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '📑ᴍᴇɴᴜ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '👩‍💻ᴏᴡɴᴇʀ' }, type: 1 },{ buttonId: `${prefix}sewabot`, buttonText: { displayText: '🤖sᴇᴡᴀ ʙᴏᴛ' }, type: 1 } ],{ buttonId: `${prefix}rules`, buttonText: { displayText: '📝ʀᴜʟᴇs ʙᴏᴛ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 const sound = fs.readFileSync('./media/audio.mp3')
 Dhani.sendMessage(from, sound, audio, { mimetype: 'audio/mp4', ptt: true })
 break
@@ -1103,7 +1096,7 @@ menu =
 Untuk yang mau beli script / sc
 Bisa request jika minat silakan hubungi nomor dibawah
 Nomor : https://wa.me/message/IMGMIAUAWC54J1`
-Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
+Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: '💰ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '👩‍💻ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
 case 'payment':
