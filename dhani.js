@@ -462,11 +462,11 @@ menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
 
 
-\`\`\`❏「 WAKTU INDONESIA 」\`\`\`
-${gaya1} *Tanggal* : ${tanggal}
-${gaya1} *Wib* : ${time}
-${gaya1} *Wita* : ${timeMak}
-${gaya1} *Wit* : ${timeJay}
+\`\`\`❏「 WAKTU INDONESIA🕖 」\`\`\`
+${gaya1} *🗒️Tanggal* : ${tanggal}
+${gaya1} *⚡Wib* : ${time}
+${gaya1} *⚡Wita* : ${timeMak}
+${gaya1} *⚡Wit* : ${timeJay}
 
 
 \`\`\`❏「 INFO BOT🤖 」\`\`\`
@@ -1908,7 +1908,7 @@ case 'sc':
 case 'script':
 case 'sourcode':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
-fakeitem(`_Silakan mampir ke channel ini_\n_Karena disana ada script bot keren²_\n_Gak mampir sangat rugi besar_\n_https://youtube.com/channel/UCcnWMxH0nUbArCCkqubUeHA_`)
+fakeitem(`_Ga Ada Sc²an Tai*_\n_*SC ORI : DHANI*_\n_*RECODE : VELLS (GUA)*_`)
 break
 case 'rules':
 case 's&k':
