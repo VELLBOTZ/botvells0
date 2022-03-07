@@ -487,7 +487,7 @@ teks =
 `_Silakan Pilih Tombol Di Bawah_
 _Pilih Salah Satu Jika WhatsApp Gb_
 _Silakan Ketik ${prefix}command_`
-Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '📑ᴍᴇɴᴜ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '👩‍💻ᴏᴡɴᴇʀ' }, type: 1 },{ buttonId: `${prefix}sewabot`, buttonText: { displayText: '🤖sᴇᴡᴀ ʙᴏᴛ' }, type: 1 } ],{ buttonId: `${prefix}rules`, buttonText: { displayText: '📝ʀᴜʟᴇs ʙᴏᴛ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
+Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '📑ᴍᴇɴᴜ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '👩‍💻ᴏᴡɴᴇʀ' }, type: 1 },{ buttonId: `${prefix}sewabot`, buttonText: { displayText: '🤖sᴇᴡᴀ ʙᴏᴛ' }, type: 1 },{ buttonId: `${prefix}rules`, buttonText: { displayText: '📝ʀᴜʟᴇs ʙᴏᴛ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 const sound = fs.readFileSync('./media/audio.mp3')
 Dhani.sendMessage(from, sound, audio, { mimetype: 'audio/mp4', ptt: true })
 break
